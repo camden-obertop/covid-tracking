@@ -36,7 +36,5 @@ getData().then(data => {
         });
     }
 
-    console.log(total_data);
-
     csvWriter.writeRecords(total_data).then(() => console.log("File Successfully Written!"));
 });
