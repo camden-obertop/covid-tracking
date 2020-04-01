@@ -1,5 +1,4 @@
 const fetch = require("node-fetch")
-const fs = require("fs");
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 const date = new Date();
